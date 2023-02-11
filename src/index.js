@@ -7,8 +7,10 @@ import {
 } from "react-router-dom";
 
 import Header from "./components/Header/Header";
-import Inicio from "./components/Inicio/Inicio";
-import reportWebVitals from "./reportWebVitals";
+import Footer from "./components/Footer/Footer";
+import Inicio from "./pages/Inicio/Inicio";
+import Error from "./pages/Error/Error";
+// import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,7 +22,7 @@ root.render(
 			{/* <Route path="/tienda" element={<Tienda />} /> */}
 			{/* <Route path="/producto/:id/:nombre" element={<Detalle />} /> */}
 			{/* <Route path="/contacto" element={<Contacto />} /> */}
-			{/* <Route path="*" element={<Error />} /> */}
+			<Route path="*" element={<Error />} />
 
 			{/* <Route path="/categoria/:categoria" element={<Categoria />} /> */}
 			{/* <Route path="/resultados/" element={<Resultados />} /> */}
@@ -28,7 +30,7 @@ root.render(
 			{/* <Route path="/dev/:categoria" element={<Dev />} /> */}
 			{/* <Route path="/cerebro" element={<Cerebro />} /> */}
 		</Routes>
-		{/* <Footer /> */}
+		<Footer />
 	</Router>,
 );
 

@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/imagenes/logo.jpg";
 import { NOMBRESITIO } from "../../assets/js/CONST";
 
+import "./Header.css";
+
 function Header() {
 	return (
 		<header>
