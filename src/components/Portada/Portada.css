@@ -22,7 +22,10 @@ section#inicio > div > h2 > span {
 	color: #ff9318;
 }
 @media ( max-width: 850px ) {
+	section#inicio {
+		padding: 0 0 50px;
+	}
 	section#inicio > div > h2 {
-		font-size: .8em;
+		font-size: 11vw;
 	}
 }

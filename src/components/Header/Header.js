@@ -48,6 +48,7 @@ function MenuMobile() {
 					</li>
 				</ul>
 			</nav>
+			<div className="menufondoopacidad">&nbsp;</div>
 		</>
 	);
 }

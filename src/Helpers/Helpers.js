@@ -11,17 +11,20 @@ export function isMobile() {
 
 // MENU MOBILE
 export function clickMenuMobile() {
-	$(".elmenu").on("click", function () {
-		if ( $( this ).parent().is( ".activo" ) ) {
-			$( this ).parent().removeClass("activo");
+	$(".elmenu").on("click", () => {
+		if ( $("body").is( ".menuactivo" ) ) {
+			$("body").removeClass("menuactivo");
 		} else {
-			$(this).parent().addClass("activo");
+			$("body").addClass("menuactivo");
 		}
 	});
 }
 
 export function escondeMenuMobile() {
-	$("body").on("click", "header.activo nav ul li", () => {
-		$("header").removeClass("activo");
+	$("body").on("click", "header nav ul li", () => {
+		$("body").removeClass("menuactivo");
+	});
+	$("body").on("click", ".menufondoopacidad", () => {
+		$("body").removeClass("menuactivo");
 	});
 }
