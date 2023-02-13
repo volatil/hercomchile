@@ -3,6 +3,7 @@ section#cajitas {
 	justify-content: space-evenly;
 	position: relative;
 	top: -50px;
+	margin-bottom: 100px;
 }
 section#cajitas > .caja {
 	background: white;
@@ -19,6 +20,13 @@ section#cajitas > .caja:hover {
 }
 section#cajitas > .caja > img {
 	width: 80px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition:    all 0.2s ease-out;
+	-o-transition:      all 0.2s ease-out;
+	transition:         all 0.2s ease-out;
+}
+section#cajitas > .caja:hover > img {
+	transform: rotate(15deg);
 }
 section#cajitas > .caja > h3 {
 	text-align: center;
@@ -40,4 +48,8 @@ section#cajitas > .caja > ul > li {
 	0% { top: 0; }
 	50% { top: 10px; }
 	100% { top: 0; }
+}
+
+section#cajitas {
+	display: none;
 }

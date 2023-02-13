@@ -1,0 +1,13 @@
+section#mail {
+	background: white;
+	padding: 100px 0;
+	margin-top: 40px;
+}
+section#mail > h2 {
+	text-align: center;
+	font-size: 4em;
+	margin: 0;
+}
+section#mail > p {
+	text-align: center;
+}

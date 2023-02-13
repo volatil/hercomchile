@@ -1,0 +1,21 @@
+section#nosotros {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background: white;
+	padding: 3% 4%;
+}
+section#nosotros > div {
+	margin: 0 1%;
+}
+section#nosotros > div > img {
+	width: 100%;
+}
+section#nosotros > div > h2 {
+	font-size: 3em;
+	font-weight: 900;
+	margin: 0;
+}
+section#nosotros > div > p {
+	margin-bottom: 40px;
+}

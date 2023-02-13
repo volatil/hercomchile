@@ -2,7 +2,7 @@ section#inicio {
 	position: relative;
 	background-image: url("../../assets/imagenes/portada1_opacidad.jpg");
 	background-size: cover;
-	padding: 100px 0;
+	padding: 100px 0 180px;
 }
 section#inicio > div {
 	display: flex;
@@ -20,4 +20,9 @@ section#inicio > div > h2 {
 }
 section#inicio > div > h2 > span {
 	color: #ff9318;
+}
+@media ( max-width: 850px ) {
+	section#inicio > div > h2 {
+		font-size: .8em;
+	}
 }

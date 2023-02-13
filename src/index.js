@@ -9,6 +9,8 @@ import {
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Inicio from "./pages/Inicio/Inicio";
+import Acerca from "./pages/Acerca/Acerca";
+import Mail from "./pages/Mail/Mail";
 import Error from "./pages/Error/Error";
 // import reportWebVitals from "./reportWebVitals";
 import "./index.css";
@@ -19,12 +21,10 @@ root.render(
 		<Header />
 		<Routes>
 			<Route exact path="/" element={<Inicio />} />
-			{/* <Route path="/tienda" element={<Tienda />} /> */}
-			{/* <Route path="/producto/:id/:nombre" element={<Detalle />} /> */}
-			{/* <Route path="/contacto" element={<Contacto />} /> */}
+			<Route path="/acerca" element={<Acerca />} />
 			<Route path="*" element={<Error />} />
 
-			{/* <Route path="/categoria/:categoria" element={<Categoria />} /> */}
+			<Route path="/mail" element={<Mail />} />
 			{/* <Route path="/resultados/" element={<Resultados />} /> */}
 
 			{/* <Route path="/dev/:categoria" element={<Dev />} /> */}

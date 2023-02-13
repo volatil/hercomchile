@@ -19,3 +19,14 @@ section#error > p.bajada {
 	font-size: 2em;
 	margin: 0;
 }
+@media ( max-width: 850px ) {
+	section#error > p.titulo {
+		font-size: 2.5em;
+	}
+	section#error > p.bajada {
+		font-size: 1em;
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
