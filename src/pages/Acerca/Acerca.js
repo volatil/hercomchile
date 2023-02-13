@@ -1,7 +1,9 @@
+import Nosotros from "../../components/Nosotros/Nosotros";
+
 function Acerca() {
 	return (
 		<section id="acerca">
-			<h2>ACERCA :D</h2>
+			<Nosotros />
 		</section>
 	);
 }

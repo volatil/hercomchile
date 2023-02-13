@@ -8,10 +8,13 @@ import {
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+
 import Inicio from "./pages/Inicio/Inicio";
 import Acerca from "./pages/Acerca/Acerca";
-import Mail from "./pages/Mail/Mail";
+import Contacto from "./pages/Contacto/Contacto";
 import Error from "./pages/Error/Error";
+
+import Mail from "./pages/Mail/Mail";
 // import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
@@ -22,6 +25,7 @@ root.render(
 		<Routes>
 			<Route exact path="/" element={<Inicio />} />
 			<Route path="/acerca" element={<Acerca />} />
+			<Route path="/contacto" element={<Contacto />} />
 			<Route path="*" element={<Error />} />
 
 			<Route path="/mail" element={<Mail />} />

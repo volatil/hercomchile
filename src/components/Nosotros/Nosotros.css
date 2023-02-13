@@ -19,3 +19,9 @@ section#nosotros > div > h2 {
 section#nosotros > div > p {
 	margin-bottom: 40px;
 }
+
+@media ( max-width: 850px ) {
+	section#nosotros > div:first-of-type {
+		display: none;
+	}
+}
