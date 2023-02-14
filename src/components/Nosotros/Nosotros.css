@@ -4,6 +4,7 @@ section#nosotros {
 	flex-direction: row;
 	background: white;
 	padding: 3% 4%;
+	margin-top: 20px;
 }
 section#nosotros > div {
 	margin: 0 1%;

@@ -12,24 +12,6 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #contacto > div > div.direcciones .bloques {
 	display: flex;
 	flex-wrap: wrap;
@@ -51,33 +33,6 @@
 	text-decoration: none;
 	color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #contacto > div form {
 	display: flex;
 	flex-direction: column;
@@ -127,4 +82,32 @@
 	color: #856404;
 	background-color: #fff3cd;
 	border-color: #ffeeba;
+}
+
+@media ( max-width: 850px ) {
+	#contacto > h3 {
+		font-size: 9.2vw;
+		padding-top: 20px;
+	}
+	#contacto > div {
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+	}
+	#contacto > div > div.direcciones {
+		margin-bottom: 30px;
+	}
+	#contacto > div > div.direcciones .bloques {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	#contacto > div > div.direcciones .bloques .bloque {
+		margin-bottom: 20px;
+		margin: 0 1% 1%;
+		width: 47%;
+	}
+	#contacto > div > div.direcciones .bloques .bloque > a {
+		font-size: .9em;
+	}
 }

@@ -101,14 +101,6 @@ function Contacto() {
 							<Bloque titulo="Dirección" imagen={cajaDireccion} mapa={["https://www.google.cl/maps/place/Av.+Apoquindo+7935,+Las+Condes,+Regi%C3%B3n+Metropolitana/@-33.4085664,-70.5508999,17z/data=!3m1!4b1!4m6!3m5!1s0x9662ce9569ad04e7:0xa64894df53a73b2f!8m2!3d-33.4085664!4d-70.5487112!16s%2Fg%2F11dfjyhlkb", "Avda. Apoquindo 7935, Las Condes, Chile"]} />
 							{/* eslint-enable */}
 						</div>
-						{/*
-						<p>Contacto ventas: <strong><a href="tel:+56965643897">+56 965 643 897</a></strong></p>
-						<p>Consultas técnicas: <strong><a href="tel:+569974487283">+569 974 487 283</a></strong></p>
-						<p>Correo: <strong><a href="mailto:ventas@Hercomchile.cl">ventas@Hercomchile.cl</a></strong></p>
-						*/}
-						{/* eslint-disable */}
-						{/* <p>Oficina Comercial: <strong><a href="https://www.google.cl/maps/place/Av.+Apoquindo+7935,+Las+Condes,+Regi%C3%B3n+Metropolitana/@-33.4085664,-70.5508999,17z/data=!3m1!4b1!4m6!3m5!1s0x9662ce9569ad04e7:0xa64894df53a73b2f!8m2!3d-33.4085664!4d-70.5487112!16s%2Fg%2F11dfjyhlkb">Avda. Apoquindo 7935, Las Condes, Chile</a></strong></p> */}
-						{/* eslint-enable */}
 					</div>
 					<form className="contacto" method="POST">
 						<input name="nombre" type="text" placeholder="Nombre" />

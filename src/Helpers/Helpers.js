@@ -56,13 +56,16 @@ export function verificaEmail() {
 
 	const estado = !$("#contacto form").html().includes("invalido");
 	if ( estado ) {
+		$("form.contacto input[name=nombre]").val("");
+		$("form.contacto input[name=email]").val("");
+		$("form.contacto textarea").val("");
 		$(".estadoEnvio p.true").show();
 	} else {
 		$(".estadoEnvio p.false").show();
 	}
 	setTimeout(() => {
 		$(".estadoEnvio > p").fadeOut();
-	}, 4000);
+	}, 6000);
 
 	return estado;
 }

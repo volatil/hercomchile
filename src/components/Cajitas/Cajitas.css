@@ -55,6 +55,7 @@ section#cajitas > .caja > ul > li {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		margin-bottom: 30px;
 	}
 	section#cajitas > .caja {
 		width: 80%;
@@ -62,10 +63,6 @@ section#cajitas > .caja > ul > li {
 		flex-direction: row;
 		min-height: 210px;
 		margin: 20px 0;
-	}
-	section#cajitas > .caja > img {
-		/* position: absolute;
-		left: 10px; */
 	}
 	section#cajitas > .caja > h3 ,
 	section#cajitas > .caja > ul {
