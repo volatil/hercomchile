@@ -7,7 +7,7 @@ function Portada() {
 		<section id="inicio">
 			<div>
 				<h2>lleva tu proyecto al <span>siguiente nivel</span>.</h2>
-				<Button />
+				<Button hacia="/contacto" />
 			</div>
 		</section>
 	);

@@ -18,7 +18,7 @@ function Nosotros() {
 					sociedades a nivel nacional e internacional, todo esto para desarrollar y crear en los
 					tiempos y parámetros solicitados.
 				</p>
-				<Button />
+				<Button hacia="/contacto" />
 			</div>
 		</section>
 	);
