@@ -69,10 +69,14 @@ function Contacto() {
 			Email.send(
 				{
 					Host: "smtp.elasticemail.com",
-					Username: "pauloguajardot@gmail.com",
-					Password: "EB60EFFBD0B46F5D82325D1867E3AAFC8639",
-					From: "pauloguajardot@gmail.com", // de
-					To: "paulo@buscalibre.com", // para
+					Username: "ventas@hercomchile.cl",
+					Password: "DD0E1B90FB7B4ED53B5D1509C871F3026CD9",
+					// Username: "pauloguajardot@gmail.com",
+					// Password: "EB60EFFBD0B46F5D82325D1867E3AAFC8639",
+					From: "ventas@hercomchile.cl", // de
+					To: "ventas@hercomchile.cl", // para
+					// From: "pauloguajardot@gmail.com", // de
+					// To: "paulo@buscalibre.com", // para
 					Subject: `Formulario de contacto de ${location.href}`,
 					Body: data.todoelmensaje(),
 				},
@@ -96,7 +100,7 @@ function Contacto() {
 						<div className="bloques">
 							<Bloque titulo="Contacto ventas" imagen={cajaTelefono} telefono={["+56965643897", "+569 656 438 97"]} />
 							<Bloque titulo="Consultas técnicas" imagen={cajaTelefono} telefono={["+569974487283", "+569 974 487 283"]} />
-							<Bloque titulo="Correo" imagen={cajaCorreo} correo="ventas@Hercomchile.cl" />
+							<Bloque titulo="Correo" imagen={cajaCorreo} correo="ventas@hercomchile.cl" />
 							{/* eslint-disable */}
 							<Bloque titulo="Dirección" imagen={cajaDireccion} mapa={["https://www.google.cl/maps/place/Av.+Apoquindo+7935,+Las+Condes,+Regi%C3%B3n+Metropolitana/@-33.4085664,-70.5508999,17z/data=!3m1!4b1!4m6!3m5!1s0x9662ce9569ad04e7:0xa64894df53a73b2f!8m2!3d-33.4085664!4d-70.5487112!16s%2Fg%2F11dfjyhlkb", "Avda. Apoquindo 7935, Las Condes, Chile"]} />
 							{/* eslint-enable */}
