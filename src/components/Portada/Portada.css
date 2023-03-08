@@ -1,6 +1,8 @@
 section#inicio {
 	position: relative;
-	background-image: url("../../assets/imagenes/portada1_opacidad.jpg");
+	/* background-image: url("../../assets/imagenes/portada1_opacidad.jpg"); */
+	/* background-image: url("../../assets/imagenes/portada1_opacidad-35.jpg"); */
+	background-image: url("../../assets/imagenes/portada1_opacidad-50.jpg");
 	background-size: cover;
 	padding: 100px 0 180px;
 }

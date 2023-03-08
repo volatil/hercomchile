@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 
 import "./Nosotros.css";
-import nosotros from "../../assets/imagenes/nosotros.jpg";
+import nosotros from "../../assets/imagenes/nosotros-50.jpg";
 import { NOMBRESITIO } from "../../assets/js/CONST";
 
 function Nosotros() {
