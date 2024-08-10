@@ -106,7 +106,7 @@ function Contacto() {
 							{/* eslint-enable */}
 						</div>
 					</div>
-                    {/* 
+					{/*
 					<form className="contacto" method="POST">
 						<input name="nombre" type="text" placeholder="Nombre" />
 						<input name="email" type="email" placeholder="Email" />
@@ -117,7 +117,7 @@ function Contacto() {
 							<p style={{ display: "none" }} className="false">Debes completar los campos.</p>
 						</div>
 					</form>
-                    */}
+					*/}
 				</div>
 			</section>
 		</>
