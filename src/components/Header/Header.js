@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/imagenes/logo.jpg";
+import logo from "../../assets/imagenes/logo2025.png";
 import { NOMBRESITIO } from "../../assets/js/CONST";
 import { isMobile, clickMenuMobile, escondeMenuMobile } from "../../Helpers/Helpers";
 

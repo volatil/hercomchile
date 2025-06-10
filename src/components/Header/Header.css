@@ -12,7 +12,7 @@ header .logo a {
 	margin: 10px 0 10px 20px;
 }
 header .logo a img {
-	width: 100%;
+	max-height: 100px;
 }
 header .menu ul {
 	display: flex;
@@ -45,6 +45,9 @@ header .menu ul li a:hover {
 @media ( max-width: 850px ) {
 	header .logo a {
 		width: 90px;
+	}
+	header .logo a img {
+        max-height: 45px;
 	}
 	header .elmenu {
 		display: flex;
