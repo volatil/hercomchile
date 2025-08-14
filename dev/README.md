@@ -1,9 +1,9 @@
-# moiji.cl
-- [ ] 
+# hercomchile.cl
+- [ ] usar actions
 
 
 <!-- 
-https://github.com/volatil/moiji/actions
+https://github.com/volatil/hercomchile/actions
 
 -> C:\Windows\System32\drivers\etc\HOSTS
 127.0.0.1   moiji.local.cl

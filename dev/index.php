@@ -16,6 +16,10 @@
     <body>
 
         <p>Funciono? <?php echo $cerresiete; ?></p>
+        
+        <video part="video" crossorigin="" playsinline="" muted="" autoplay loop src="https://videos.pexels.com/video-files/5349086/5349086-hd_1920_1080_30fps.mp4" preload="metadata">
+        <!-- <track kind="metadata" label="cuepoints" data-removeondestroy=""> -->
+        </video>
 
     </body>
 </html>
