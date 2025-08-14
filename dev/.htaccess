@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Estas condiciones de reescritura verifican si el archivo solicitado no es un archivo existente (-f) y si no es un directorio existente (-d).
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Start Generation Here
+# Redirigir todas las solicitudes a config/controller.php para que todas las páginas lo consulten
+RewriteRule ^(.*)$ controllers/controlador.php [L]
+
+<FilesMatch "^(\.gitignore|\.env|\.htaccess|\.htpasswd)$">
+    Require all denied
+</FilesMatch>
