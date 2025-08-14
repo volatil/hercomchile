@@ -1,5 +1,7 @@
 # hercomchile.cl
 - [ ] usar actions
+- [ ] robots.txt
+- [ ] sitemap.xml
 
 
 <!-- 
